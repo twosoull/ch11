@@ -37,11 +37,11 @@ public class QueueEx1 {
 					LinkedList list = (LinkedList) q;
 					ListIterator it = list.listIterator();
 						//이부분을 모르겠음
-					while(it.hasNext())
+				while(it.hasNext())
 						System.out.println(++i+"."+it.next());
-					//final int SIZE = list.size();
+				//	final int SIZE = list.size();
 				//	for(int j = 0; j<SIZE; j++) {
-					//	System.out.println((j+1)+". "+list.get(i));
+				//		System.out.println((j+1)+". "+list.get(j));
 				//	}
 				}else {
 					save(input);
